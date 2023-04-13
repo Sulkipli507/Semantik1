@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var xmlDoc;
+            function loadXML()
+            {
+                if(window.ActiveXObject)
+                {
+                    xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+                    xmlDoc.async = false;
+                    xmlDoc.load("node.xml");
+                    getmessage();
+                }
+                else if (document.implementation  && document.implementation.createDocument)
+                {
+                    xmlDoc = document.implementation.createDocument("","",null);
+                    xmlDoc.load("node.xml");
+                    xmlDoc.onload=getmessage;
+                }
+                else
+                {
+                    alert("browser tidak kompetibel");
+                }
+            }
+            function getmessage()
+            {
+                document.getElementById("to").innerHTML=xmlDoc.getElementsByTagName("to") [0].childNodes[0].nodeValue;
+                document.getElementById("from").innerHTML=xmlDoc.getElementsByTagName("from") [0].childNodes[0].nodeValue;
+                document.getElementById("heading").innerHTML=xmlDoc.getElementsByTagName("heading") [0].childNodes[0].nodeValue;
+                document.getElementById("message").innerHTML=xmlDoc.getElementsByTagName("message") [0].childNodes[0].nodeValue;
+
+            }
+
+        </script>
+    </head>
+    <body onload="loadXML()">
+        <h1>Catatan</h1>
+        <p>
+            <b>TO : </b> <span id="to"></span><br>
+            <b>FROM : </b> <span id="from"></span><br>
+            <b>HEADING : </b> <span id="heading"></span><br>
+            <b>MESSAGE : </b> <span id="message"></span><br>
+        </p>
+    </body>
+</html>

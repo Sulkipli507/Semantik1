@@ -1,0 +1,19 @@
+<?xml version='1.0' standalone='yes'?>
+<databuku>
+    <buku>
+        <judul>Dasar pemrograman Ajax</judul>
+        <penerbit>Melex media</penerbit>
+        <penulis>Chandra jatnika</penulis>
+        <sinopsis>Buku ini mengajarkan tentang dasar pemrograman ajax, anda akan dibimbing dari script yang sangat sederhana sampai tingkat yang cukup rumit namun dengan contoh-contoh yang sangat dapat dimengerti</sinopsis>
+        <rating level="lumayan">6</rating>
+    </buku>
+    <buku>
+        <judul>Pengenalan teknologi web 2.0</judul>
+        <penerbit>T-10 media</penerbit>
+        <penulis>T-10 Jatnika</penulis>
+        <sinopsis>Teknologi web saat ini semakin berkembang dan hasil perkembangan itu muncullah trend web 2.0</sinopsis>
+        <tahun>2008</tahun>
+        <rating level="bagus">8</rating>
+    </buku>
+
+</databuku>

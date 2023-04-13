@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<orang>
+    <mahasiswa angkatan='2007' kelas="XWS-01">
+        <nim>1112</nim>
+        <nama>Sisanti</nama>
+    </mahasiswa>
+    <mahasiswa angkatan='2008' kelas="XWS-02">
+        <nim>1111</nim>
+        <nama>Susilo</nama>
+    </mahasiswa>
+</orang>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<bahan>
+    <a:bambu xmlns:a="Namespace1">
+        <a:asal>Jawa</a:asal>
+        <a:jenis>Besar</a:jenis>
+    </a:bambu>
+    <b:bambu xmlns:b="Namespace2">
+        <b:jenis>belah 4</b:jenis>
+        <b:panjang>3</b:panjang>
+    </b:bambu>
+</bahan>

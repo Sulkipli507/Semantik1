@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<orang>
+    <!--Data mahasiswa pertama-->
+    <mahasiswa angkatan='2007' kelas="XWS-01">
+        <nim>1112</nim>
+        <nama hobi='membaca'>Sisanti</nama>
+        <teman>
+            <nim>1113</nim>
+            <nama>Juliana</nama>
+        </teman>
+    </mahasiswa>
+    <!--Data mahasiswa kedua-->
+    <mahasiswa angkatan='2008' kelas="XWS-02">
+        <nim>1111</nim>
+        <nama>Susilo</nama>
+        <teman>
+            <nim>1114</nim>
+            <nama hobi='olahraga'>Julianto</nama>
+        </teman>
+    </mahasiswa>
+</orang>
